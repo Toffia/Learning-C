@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="code2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="V:/noneeddks/msys2/home/code2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="V:/dks/mingw/bin/mingw32-make.exe -f &quot;V:/noneeddks/msys2/home/code2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="V:/dks/mingw/bin/mingw32-make.exe -f &quot;V:/noneeddks/msys2/home/code2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="V:/dks/mingw/bin/mingw32-make.exe -f &quot;V:/noneeddks/msys2/home/code2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="V:/dks/mingw/bin/mingw32-make.exe -f &quot;V:/noneeddks/msys2/home/code2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="code2">
+				<Option output="V:/noneeddks/msys2/home/code2/cmake-build-debug/code2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="V:/noneeddks/msys2/home/code2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="V:/dks/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include"/>
+					<Add directory="V:/dks/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../include"/>
+					<Add directory="V:/dks/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include-fixed"/>
+					<Add directory="V:/dks/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="V:/dks/mingw/bin/mingw32-make.exe -f &quot;V:/noneeddks/msys2/home/code2/cmake-build-debug/Makefile&quot;  VERBOSE=1 code2"/>
+					<CompileFile command="V:/dks/mingw/bin/mingw32-make.exe -f &quot;V:/noneeddks/msys2/home/code2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="V:/dks/mingw/bin/mingw32-make.exe -f &quot;V:/noneeddks/msys2/home/code2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="V:/dks/mingw/bin/mingw32-make.exe -f &quot;V:/noneeddks/msys2/home/code2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="code2/fast">
+				<Option output="V:/noneeddks/msys2/home/code2/cmake-build-debug/code2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="V:/noneeddks/msys2/home/code2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="V:/dks/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include"/>
+					<Add directory="V:/dks/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../include"/>
+					<Add directory="V:/dks/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include-fixed"/>
+					<Add directory="V:/dks/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="V:/dks/mingw/bin/mingw32-make.exe -f &quot;V:/noneeddks/msys2/home/code2/cmake-build-debug/Makefile&quot;  VERBOSE=1 code2/fast"/>
+					<CompileFile command="V:/dks/mingw/bin/mingw32-make.exe -f &quot;V:/noneeddks/msys2/home/code2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="V:/dks/mingw/bin/mingw32-make.exe -f &quot;V:/noneeddks/msys2/home/code2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="V:/dks/mingw/bin/mingw32-make.exe -f &quot;V:/noneeddks/msys2/home/code2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="V:/noneeddks/msys2/home/code2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="V:/dks/mingw/bin/mingw32-make.exe -f &quot;V:/noneeddks/msys2/home/code2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="V:/dks/mingw/bin/mingw32-make.exe -f &quot;V:/noneeddks/msys2/home/code2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="V:/dks/mingw/bin/mingw32-make.exe -f &quot;V:/noneeddks/msys2/home/code2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="V:/dks/mingw/bin/mingw32-make.exe -f &quot;V:/noneeddks/msys2/home/code2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="V:/noneeddks/msys2/home/code2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="V:/dks/mingw/bin/mingw32-make.exe -f &quot;V:/noneeddks/msys2/home/code2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="V:/dks/mingw/bin/mingw32-make.exe -f &quot;V:/noneeddks/msys2/home/code2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="V:/dks/mingw/bin/mingw32-make.exe -f &quot;V:/noneeddks/msys2/home/code2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="V:/dks/mingw/bin/mingw32-make.exe -f &quot;V:/noneeddks/msys2/home/code2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="V:/noneeddks/msys2/home/code2/file_descriptor/main.c">
+			<Option target="code2"/>
+		</Unit>
+		<Unit filename="V:/noneeddks/msys2/home/code2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
