@@ -1,4 +1,0 @@
-V:\Programs\IDE\CLion\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" V:\noneeddks\msys2\home\code2
--- Configuring done
--- Generating done
--- Build files have been written to: V:/noneeddks/msys2/home/code2/cmake-build-debug
