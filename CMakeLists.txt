@@ -4,3 +4,4 @@ project(code2 C)
 set(CMAKE_C_STANDARD 99)
 
 add_executable(code2 file_descriptor/main.c)
+add_executable(code3 binary_print/binary_print.c)
