@@ -4,9 +4,13 @@ if [ "$1" == "" ]; then
  echo "Usage: $0 <cprogram>"
 else 
  echo "Compiling $1"
+ echo
  gcc -o temp $1
+ echo
  echo "Launching $1"
- ./temp
+ echo
+ ./temp $2 $3 $4 $5
+ echo
  rm temp
 fi
 
